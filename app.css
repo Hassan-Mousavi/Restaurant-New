@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+  font-family: tahoma;
+}
+body {
+  font-size: 1.8rem;
+}
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 22, 89, 0.17);
+  margin-top: 2rem;
+}
+.logo_part {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 11.9rem;
+  height: 6.7rem;
+}
+.logo_name {
+  font-size: 2.4rem;
+  color: #ee3a43;
+  text-align: left;
+  width: 11.1rem;
+  height: 2.7rem;
+}
+.nav_part {
+  width: 52.2rem;
+  height: 4.1rem;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+#nav_select {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.nav_item_icon {
+  width: 1.1rem;
+  height: 2.8rem;
+}
+.shop_contact_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.shop_icon {
+  width: 2rem;
+  height: 2.8rem;
+  fill: #00a149;
+}
+.shop_counter {
+  display: inline-block;
+  text-align: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #212121;
+  color: #fff;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.bar_icon_part {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #212121;
+}
