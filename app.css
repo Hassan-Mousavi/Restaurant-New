@@ -9,6 +9,7 @@ html {
 }
 body {
   font-size: 1.8rem;
+  /* font-family: "Comic Sans MS"; */
 }
 .header {
   box-shadow: 0 0 5px rgba(0, 22, 89, 0.17);
@@ -39,6 +40,7 @@ body {
   text-align: left;
   width: 11.1rem;
   height: 2.7rem;
+  font-family: "Comic Sans MS";
 }
 .nav_part {
   width: 52.2rem;
@@ -136,13 +138,18 @@ body {
 }
 /* main part */
 .hero_img {
+  position: relative;
   background: url(/img/hero.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
   height: 71rem;
 }
 .hero_content {
   width: 61.5rem;
   height: 35.5rem;
+  position: absolute;
+  top: 155px;
+  left: 135px;
 }
 .hero_title h1 {
   color: #fff;
@@ -150,19 +157,77 @@ body {
   width: 65rem;
   height: 15rem;
   line-height: 75px;
+  font-family: "Comic Sans MS";
+  margin-bottom: 3rem;
 }
 .hero_caption {
   width: 65rem;
   height: 7rem;
   color: #fff;
+  margin-bottom: 3rem;
 }
 .hero_caption p {
   width: 58.1rem;
   height: 5rem;
   font-size: 2rem;
   line-height: 25px;
+  font-family: "Comic Sans MS";
 }
 .hero_btn {
   width: 61.5rem;
   height: 7.5rem;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.hero_link {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  background-color: #f3274c;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.hero_link::after {
+  position: absolute;
+  top: -4.5px;
+  left: 13px;
+  content: "";
+  border: 1px solid #f3274c;
+  border-radius: 12px;
+  width: 15rem;
+  height: 4.9rem;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.hero_play {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  color: #fff;
+}
+.hero_play_container {
+  position: relative;
+  width: 7.6rem;
+  height: 7.5rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.hero_play_icon {
+  position: absolute;
+  top: 27.5px;
+  right: 28px;
+  width: 1.6rem;
+  height: 2rem;
+  fill: #fff;
 }
