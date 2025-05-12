@@ -142,7 +142,7 @@ body {
   background: url(/img/hero.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 71rem;
+  height: 710px;
 }
 .hero_content {
   width: 61.5rem;
@@ -230,4 +230,46 @@ body {
   width: 1.6rem;
   height: 2rem;
   fill: #fff;
+}
+.weekly_special {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40rem;
+  height: 190px;
+  padding: 1rem 3rem;
+  border: 3px solid #ffd40d;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  position: absolute;
+  right: 265px;
+  bottom: 170px;
+  background-color: #000;
+}
+
+.weekly_price {
+  color: #fff;
+  font-size: 2.8rem;
+  font-weight: 700;
+  font-family: "Comic Sans MS";
+}
+.weekly_price span {
+  color: #f3274c;
+}
+.weekly_name {
+  color: #fff;
+  font-family: "Comic Sans MS";
+}
+.star_icon {
+  width: 17.5px;
+  height: 1.5rem;
+  fill: #ffc222;
+}
+.weekly_image {
+  width: 15rem;
+  height: 15rem;
+  padding: 1rem;
 }
